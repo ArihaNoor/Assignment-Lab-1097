@@ -36,7 +36,7 @@
 }
 #container{
     width: 20%;
-    height: 40%;
+    height: 200px;
     background-color: rgba(248, 248, 243, 0.768);
     border: 2px solid rgba(128, 128, 128, 0.556);
     float: left;
@@ -57,21 +57,21 @@
 @media screen and (max-width: 1024px) and (min-width: 800px) {
     #container{
         width: 20%;
-        height: 40%;
+        height: 200px;
     }
 }
 
 @media screen and (max-width: 799px) and (min-width: 300px) {
     #container{
         width: 40%;
-        height: 40%;
+        height: 200px;
     }
 } 
 
 @media screen and (max-width: 299px) {
     #container{
         width: 80%;
-        height: 50%;
+        height: 200px;
     }
 }
 
